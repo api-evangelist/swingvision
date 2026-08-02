@@ -1,0 +1,21 @@
+# SwingVision
+
+> SwingVision is an AI-powered tennis and pickleball platform built by A.I. experts from Tesla and Apple, venture-backed by Tennis Australia, Sony, and Techstars. Its mobile app processes video on-device with computer vision to deliver automated line calling, scoring, match stats, and highlight reels from a single phone or tablet camera.
+
+SwingVision is a consumer application. It does not publish a public developer API, API documentation, or SDKs; its api.swing.vision backend is private and undocumented. Session data can be exported from the app as video clips and spreadsheet (Excel) stats files.
+
+## Company
+
+- [Website](https://swing.vision/): SwingVision homepage (swing.tennis redirects here)
+- [Product updates](https://swing.vision/newsletters): Dated product-update newsletter (feature changelog)
+- [Guides](https://swing.vision/guides): Product how-to guides for players and coaches
+- [FAQ](https://swing.vision/faq): Frequently asked questions
+- [Pricing](https://swing.vision/subscribe): Subscription plans
+- [Contact](https://swing.vision/contact): Support contact
+- [GitHub organization](https://github.com/SwingVision): Verified org (no public first-party SDKs)
+
+## Legal
+
+- [Terms of Service](https://swing.vision/terms)
+- [Privacy Policy](https://swing.vision/privacy-policy)
+- [EULA](https://swing.vision/eula)

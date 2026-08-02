@@ -1,0 +1,34 @@
+generated: '2026-07-21'
+method: searched
+source: https://swing.vision/
+note: swing.tennis 301-redirects to swing.vision. swing.vision is a client-rendered
+  React SPA that returns its HTML shell with HTTP 200 for unknown paths, so the 200
+  responses below are soft-404s (text/html app shell), not real well-known documents.
+  No genuine /.well-known/ discovery documents were found. api.swing.vision (private
+  Rails backend) returns Rails 404 pages for all probed paths.
+hosts:
+- host: https://swing.vision
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /.well-known/openid-configuration
+    status: 200
+    soft_404: true
+    note: HTML SPA shell, not a JSON OIDC discovery document
+  - path: /.well-known/oauth-authorization-server
+    status: 200
+    soft_404: true
+    note: HTML SPA shell, not a JSON RFC 8414 document
+  - path: /.well-known/api-catalog
+    status: 200
+    soft_404: true
+    note: HTML SPA shell, not an API catalog
+  - path: /.well-known/ai-plugin.json
+    status: 404
+  - path: /llms.txt
+    status: 404
+- host: https://swing.tennis
+  documents:
+  - path: /.well-known/security.txt
+    status: 301
+    note: redirects to swing.vision

@@ -1,0 +1,48 @@
+generated: '2026-07-21'
+method: searched
+source: https://swing.vision/newsletters
+scheme: dated product-update newsletter (no API changelog; SwingVision publishes no
+  public developer API)
+note: Entry dates are sitemap <lastmod> values from https://swing.vision/sitemap.xml;
+  titles are derived from the published newsletter slugs. Pages are client-rendered,
+  so entry bodies are not captured here.
+entries:
+- date: '2026-05-15'
+  title: Record tab background exports
+  url: https://swing.vision/newsletters/record-tab-background-exports
+- date: '2026-04-15'
+  title: Ground mode
+  url: https://swing.vision/newsletters/ground-mode
+- date: '2026-03-15'
+  title: ITF tournament approval
+  url: https://swing.vision/newsletters/itf-tournament-approval
+- date: '2026-02-15'
+  title: Family sharing
+  url: https://swing.vision/newsletters/family-sharing
+- date: '2026-01-15'
+  title: Free tier
+  url: https://swing.vision/newsletters/free-tier
+- date: '2025-06-20'
+  title: Coach reviews
+  url: https://swing.vision/newsletters/coach-reviews
+- date: '2025-01-30'
+  title: Live line calls
+  url: https://swing.vision/newsletters/live-line-calls
+- date: '2025-01-30'
+  title: Dinks, drops and live line calls (pickleball)
+  url: https://swing.vision/newsletters/dinks-drops-live-line-calls
+- date: '2025-01-16'
+  title: AI scoring
+  url: https://swing.vision/newsletters/ai-scoring
+- date: '2024-11-13'
+  title: Group chats
+  url: https://swing.vision/newsletters/group-chats
+- date: '2024-07-03'
+  title: AI coaching
+  url: https://swing.vision/newsletters/ai-coaching
+- date: '2024-07-03'
+  title: Pickleball match mode
+  url: https://swing.vision/newsletters/pickleball-match-mode
+- date: '2024-07-03'
+  title: Remote control
+  url: https://swing.vision/newsletters/remote-control

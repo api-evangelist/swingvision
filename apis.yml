@@ -1,7 +1,24 @@
 aid: swingvision
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/swingvision.png
 name: SwingVision
-description: SwingVision is a company surfaced as a portfolio company of techstars and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: SwingVision is an AI-powered tennis and pickleball platform built by a team
+  of A.I. experts from Tesla and Apple, venture-backed by Tennis Australia, Sony, and
+  Techstars. Its mobile app processes video on-device with computer vision to deliver
+  automated line calling, scoring, match stats, and highlight reels from a single
+  phone or tablet camera. SwingVision is a consumer application and does not publish
+  a public developer API; its api.swing.vision backend is private and undocumented,
+  with data export offered through the app as video and spreadsheet files.
 url: https://raw.githubusercontent.com/api-evangelist/swingvision/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +28,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Sports
+- Tennis
+- Pickleball
+- Artificial Intelligence
+- Computer Vision
+- Video Analytics
+- Mobile Apps
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +45,36 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/swingvision-domain-security.yml
 - type: Website
-  url: https://swing.tennis/
+  url: https://swing.vision/
+- type: Blog
+  url: https://swing.vision/newsletters
+- type: Documentation
+  url: https://swing.vision/guides
+- type: Support
+  url: https://swing.vision/contact
+- type: FAQ
+  url: https://swing.vision/faq
+- type: Pricing
+  url: https://swing.vision/subscribe
+- type: SignUp
+  url: https://swing.vision/signup
+- type: Login
+  url: https://swing.vision/login
+- type: TermsOfService
+  url: https://swing.vision/terms
+- type: PrivacyPolicy
+  url: https://swing.vision/privacy-policy
+- type: GitHubOrganization
+  url: https://github.com/SwingVision
+- type: ChangeLog
+  url: changelog/swingvision-changelog.yml
+- type: LLMsTxt
+  url: llms/swingvision-llms.txt
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 4
+  pass: local-v1
